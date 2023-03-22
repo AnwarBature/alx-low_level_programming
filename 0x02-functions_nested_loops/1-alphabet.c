@@ -17,4 +17,3 @@ for (letter = 'a'; letter <= 'z'; letter++)
 
 _putchar('\n');
 }
-
