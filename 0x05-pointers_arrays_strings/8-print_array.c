@@ -8,14 +8,14 @@
  */
 void print_array(int *a, int n)
 {
-int a, n, longi;
-longi = 0;
-for (a = 0; str[a] != '\0'; a++)
-Longi++;
-n = (longi / 2);
-if ((longi % 2) == 1)
-n = ((longi + 1) / 2);
-for (a = n; str[a] != '\0'; a++)
-_putchar(str[a]);
-_putchar('\n');
+int i;
+for (i = 0; i < (n - 1); i++)
+{
+printf("%d, ", a[i]);
+}
+if (i == (n - 1))
+{
+printf("%d", a[n - 1]);
+}
+printf("\n");
 }
